@@ -7,10 +7,11 @@
 
 /* -- Layout -- */
 
-.wrapper{
+#wrapper{
   width:95%;
   max-width: 1024px;
-  text-align: center
+    margin:auto;
+  text-align: center;
 }
 
 ul{
@@ -84,11 +85,12 @@ picture, img{
 /* -- Over 1024px --*/
 @media all and (min-width:1024px){
     
-    .wrapper{
-      width:100%;
+    #wrapper{
+      width:95%;
       max-width: 1024px;
-      text-align: center  
+      text-align: center;  
     }
+    
     img{
         
         content: url("http://dummyimage.com/340x340/f00/fff");
