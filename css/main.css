@@ -10,7 +10,7 @@
 #wrapper{
   width:95%;
   max-width: 1024px;
-    margin:auto;
+  margin:auto;
   text-align: center;
 }
 
@@ -96,8 +96,7 @@ picture, img{
         content: url("http://dummyimage.com/340x340/f00/fff");
         max-width: 340px;
         max-height: 340px;
-    }
-    
+    } 
     
     li{ 
     width:33.33%;
