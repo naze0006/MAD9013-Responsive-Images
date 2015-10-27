@@ -1,17 +1,12 @@
-/* -- Defaults -- */
-*{
-  padding:0;
-  margin:0;
-  box-sizing:border-box;
-}
-
 /* -- Layout -- */
-
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #wrapper{
-  width:95%;
   max-width: 1024px;
-  margin:auto;
-  text-align: center;
+  margin: 0 auto;
 }
 
 ul{
@@ -20,96 +15,13 @@ ul{
 
 li{
     float:left;
-    text-align: center;
-    padding:10px 20px;
+    padding-bottom: 4px;
+    padding-right: 1px;
 }
 
-picture, img{
-   width: 100%;
-   height: auto;
+img, picture{
+    width:100%;
+    height:auto;
 }
-
-
-}
-
-/* --- Media Queries --- */
-
-/* -- Under 400px --*/
-@media all and (max-width: 400px) {
-     
-    img {
-      content: url("http://dummyimage.com/400x400/f00/fff");
-      max-width: 400px;
-      max-height: 400px;
-     }
-}
-
-/* -- between 400px and 600px --*/
-@media all and (min-width:400px) and (max-width:600px){
-
-    img{
-        content: url("http://dummyimage.com/600x600/f00/fff");
-        max-width: 600px;
-        max-height: 600px;
-    }
-}
-
-/* -- between 600px and 800px --*/
-@media all and (min-width:600px) and (max-width:800px){
-
-    img{
-        content: url("http://dummyimage.com/400x400/f00/fff");
-        max-width: 400px;
-        max-height: 400px;
-    }
-    
-    li{
-      width:50%;
-    }
-}
-
-/* -- between 800px and 1024px --*/
-@media all and (min-width:800px) and (max-width:1024px){
-
-    img{
-        content: url("http://dummyimage.com/512x512/f00/fff");
-        max-width: 512px;
-        max-height: 512px;
-    }
-    
-    li{
-      width:50%;  
-    }
-}
-
-/* -- Over 1024px --*/
-@media all and (min-width:1024px){
-    
-    #wrapper{
-      width:95%;
-      max-width: 1024px;
-      text-align: center;  
-    }
-    
-    img{
-        
-        content: url("http://dummyimage.com/340x340/f00/fff");
-        max-width: 340px;
-        max-height: 340px;
-    } 
-    
-    li{ 
-    width:33.33%;
-    padding: 25px;
-    }
-
-
-  }
-  
-    
-}
-
-  
-  
 
 
