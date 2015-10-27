@@ -33,7 +33,7 @@ picture, img{
 /* --- Media Queries --- */
 
 /* -- Under 400px --*/
-@media all and (min-width:400px){
+@media all and (max-width:400px){
 
 img{ 
         content: url("http://placehold.it/400x400");
